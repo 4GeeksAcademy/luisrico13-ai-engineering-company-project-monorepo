@@ -53,8 +53,8 @@ You are building **one company** across many milestones and projects. Each top-l
 
 > 💡 This repository currently provides a **base folder structure and documentation skeleton** only. It does not include runnable apps or global scripts yet.
 >
-> - `CONTEXT.md` is a placeholder and must be replaced with your assigned company context.
-> - There is no root `AGENTS.md` yet.
+> - Company: **Brasaland** — full briefing in [`BRIEFING.md`](./BRIEFING.md), summary in [`CONTEXT.md`](./CONTEXT.md).
+> - Coding agents follow [`AGENTS.md`](./AGENTS.md), the [`memory-bank/`](./memory-bank/) and the rules/skills in [`.agents/`](./.agents/).
 > - Shared package metadata exists in `packages/shared/package.json` (`@repo/shared-types`), but no workspace runner is configured at root.
 
 ---

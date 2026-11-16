@@ -1,16 +1,19 @@
-# Contexto de tu empresa
+# Contexto de la empresa — Brasaland
 
-**Reemplaza este contenido** por el contexto de la empresa que te hayan asignado:
+Este proyecto se construye para **Brasaland**, una cadena de restaurantes de comida a la brasa con 14 locales
+propios en Colombia y Florida (EE. UU.), ~115 empleados y ~6 M USD de facturación anual. Somos **Brasaland
+Digital**, el equipo interno que construye la plataforma digital de la empresa.
 
-- **Brasaland** — `brasaland-BRIEFING.md` (cadena de restaurantes de comida a la parrilla, Colombia + EEUU)
-- **TrackFlow** — `trackflow-BRIEFING.md` (última milla y almacén, EEUU + España)
-- **Nexova** — `nexova-BRIEFING.md` (consultoría de RR. HH. y adquisición de talento, España + EEUU)
-- **HealthCore** — `healthcore-BRIEFING.md` (red de clínicas ambulatorias, EE.UU. + Reino Unido)
+| Necesidad                      | Archivo                                                        |
+| ------------------------------ | -------------------------------------------------------------- |
+| Briefing completo              | [`BRIEFING.md`](./BRIEFING.md) — fuente de verdad del negocio  |
+| Contexto de negocio (agentes)  | [`memory-bank/projectbrief.md`](./memory-bank/projectbrief.md) |
+| Contexto técnico (agentes)     | [`memory-bank/techContext.md`](./memory-bank/techContext.md)   |
+| Estado actual                  | [`memory-bank/progress.md`](./memory-bank/progress.md)         |
+| Protocolo de agentes           | [`AGENTS.md`](./AGENTS.md)                                     |
 
-Cada proyecto te indicará el archivo de contexto correcto. Usa su contenido para crear el contexto de tu proyecto y que todo el trabajo del proyecto y tus agentes de código de IA usen los mismos datos de dominio, nombres de campos y restricciones. No copies y pegues sus contenidos; procésalos primero con tus agentes.
+Restricciones clave del dominio: dos monedas (COP, USD), dos idiomas (es, en), dos países (CO, US) y datos
+confidenciales (recetas maestras, precios de proveedores, nóminas, datos personales de clientes) que nunca se
+suben al repositorio.
 
----
-
-_Hasta que añadas tu contexto, mantén este placeholder para que la estructura del repositorio quede clara._
-
-_These instructions are also available in [English](./CONTEXT.md)._
+_This context is also available in [English](./CONTEXT.md)._
