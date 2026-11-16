@@ -1,16 +1,18 @@
-# Your company context
+# Company context — Brasaland
 
-**Replace this content** with the CONTEXT for your assigned company:
+This project is built for **Brasaland**, a grilled-food restaurant chain with 14 company-owned locations in
+Colombia and Florida (USA), ~115 employees and ~USD 6M annual revenue. We are **Brasaland Digital**, the
+internal team building the company's digital platform.
 
-- **Brasaland** — `brasaland-BRIEFING.md` (grilled food restaurant chain, Colombia + Florida)
-- **TrackFlow** — `trackflow-BRIEFING.md` (last-mile delivery and warehouse, US + Spain)
-- **Nexova** — `nexova-BRIEFING.md` (HR consulting and talent acquisition, Spain + US)
-- **HealthCore** — `healthcore-BRIEFING.md` (outpatient healthcare clinic network, US + UK)
+| Need                       | File                                                       |
+| -------------------------- | ---------------------------------------------------------- |
+| Full company briefing      | [`BRIEFING.md`](./BRIEFING.md) — business source of truth  |
+| Business context (agents)  | [`memory-bank/projectbrief.md`](./memory-bank/projectbrief.md) |
+| Technical context (agents) | [`memory-bank/techContext.md`](./memory-bank/techContext.md)   |
+| Current state              | [`memory-bank/progress.md`](./memory-bank/progress.md)         |
+| Agent protocol             | [`AGENTS.md`](./AGENTS.md)                                 |
 
-Project statements will point you to the correct context file. Use its contents to build your project context here so that all project work and AI coding agents use the same domain data, field names, and constraints. Avoid copying and pasting the content; use your agents first.
+Key domain constraints: two currencies (COP, USD), two languages (es, en), two countries (CO, US), and
+confidential data (master recipes, supplier prices, payroll, customer PII) that never goes into the repository.
 
----
-
-_Until you add your context, keep this placeholder so the repo structure is clear._
-
-_Estas instrucciones también están disponibles en [español](./CONTEXT.es.md)._
+_Este contexto también está disponible en [español](./CONTEXT.es.md)._
