@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Escríbenos para conocer más sobre Brasaland. Cuéntanos quién eres y cómo podemos ayudarte." />
     <meta name="theme-color" content="#451a03" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:title" content="Hablemos | Brasaland" />
+    <meta property="og:description" content="¿Tienes una pregunta o quieres conocer más sobre Brasaland? Déjanos un mensaje." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <title>Hablemos | Brasaland</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="validation.js" defer></script>
@@ -40,13 +45,13 @@
         <form id="contact-form" class="mt-8 space-y-5" novalidate>
           <div>
             <label for="full-name" class="block text-sm font-bold">Nombre completo <span class="text-orange-800" aria-hidden="true">*</span></label>
-            <input id="full-name" name="fullName" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="full-name-error" class="mt-2 w-full rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-400 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="¿Cómo te llamas?" />
+            <input id="full-name" name="fullName" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="full-name-error" class="mt-2 w-full rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-500 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="¿Cómo te llamas?" />
             <p id="full-name-error" class="mt-1.5 hidden text-sm font-medium text-red-700" aria-live="polite"></p>
           </div>
 
           <div>
             <label for="email" class="block text-sm font-bold">Correo electrónico <span class="text-orange-800" aria-hidden="true">*</span></label>
-            <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="email-error" class="mt-2 w-full rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-400 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="tu@correo.com" />
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="email-error" class="mt-2 w-full rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-500 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="tu@correo.com" />
             <p id="email-error" class="mt-1.5 hidden text-sm font-medium text-red-700" aria-live="polite"></p>
           </div>
 
@@ -62,7 +67,7 @@
             </div>
             <div>
               <label for="phone" class="block text-sm font-bold">Teléfono <span class="font-normal text-stone-500">(opcional)</span></label>
-              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30" aria-describedby="phone-hint phone-error" class="mt-2 w-full rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-400 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="+57 300 000 0000" />
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30" aria-describedby="phone-hint phone-error" class="mt-2 w-full rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-500 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="+57 300 000 0000" />
               <p id="phone-hint" class="mt-1.5 text-xs text-stone-500">Incluye el indicativo del país.</p>
               <p id="phone-error" class="mt-1.5 hidden text-sm font-medium text-red-700" aria-live="polite"></p>
             </div>
@@ -70,7 +75,7 @@
 
           <div>
             <label for="message" class="block text-sm font-bold">¿En qué podemos ayudarte? <span class="text-orange-800" aria-hidden="true">*</span></label>
-            <textarea id="message" name="message" required minlength="20" maxlength="1000" rows="5" aria-describedby="message-hint message-error" class="mt-2 w-full resize-y rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-400 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="Cuéntanos el motivo de tu mensaje (mínimo 20 caracteres)."></textarea>
+            <textarea id="message" name="message" required minlength="20" maxlength="1000" rows="5" aria-describedby="message-hint message-error" class="mt-2 w-full resize-y rounded-xl border border-stone-300 px-4 py-3 text-base outline-none transition placeholder:text-stone-500 focus:border-orange-700 focus:ring-2 focus:ring-orange-700/20" placeholder="Cuéntanos el motivo de tu mensaje (mínimo 20 caracteres)."></textarea>
             <p id="message-hint" class="mt-1.5 text-xs text-stone-500">Entre 20 y 1000 caracteres.</p>
             <p id="message-error" class="mt-1.5 hidden text-sm font-medium text-red-700" aria-live="polite"></p>
           </div>

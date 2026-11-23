@@ -87,3 +87,4 @@ The folders already exist in the template. **Never create a parallel tree** (no 
 - **Shared contracts:** a type used by both `uis/` and `services/` goes into `packages/shared/` — never duplicated.
 - **No root workspace runner yet:** adding a root `package.json`/`pyproject.toml` changes devcontainer behaviour and requires developer confirmation.
 - **Public website:** `uis/website/` is static HTML with Tailwind CSS from CDN; local serving can use `npx http-server uis/website -p 3000 -a 0.0.0.0`. The contact form validates client-side only and does not transmit or persist submissions.
+- **Public website metadata:** pages provide Spanish Open Graph title/description metadata and use the local `favicon.svg`; do not add unverified public contact or location details to SEO metadata.

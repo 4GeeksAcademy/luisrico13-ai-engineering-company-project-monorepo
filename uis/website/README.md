@@ -7,6 +7,7 @@ First public-facing website for Brasaland, aligned with the company briefing. It
 - `index.html` — Spanish-language landing page and company information.
 - `application.html` — contact form for interested customers.
 - `validation.js` — client-side validation and form feedback.
+- `favicon.svg` — compact Brasaland brand mark used by both pages.
 
 ## Run locally
 
