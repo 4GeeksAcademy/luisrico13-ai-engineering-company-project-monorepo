@@ -1,12 +1,12 @@
 # Progress
 
-Last updated: 2026-11-16
+Last updated: 2026-11-23
 
 ## Current state
 
-- **Milestone:** AI-driven Engineering — agent infrastructure for the monorepo.
-- **Branch:** `feature/agent-memory-bank`.
-- **Application code:** none yet. `uis/` and `services/` only contain their template READMEs.
+- **Milestone:** Public website — first Brasaland customer-facing site.
+- **Branch:** `feature/brasaland-public-website` (created from the current repository state; the pre-existing local change to `memory-bank/projectbrief.md` remains untouched).
+- **Application code:** initial static website in `uis/website/`: Spanish landing page, contact form, browser-side validation, and folder documentation.
 - **Agent infrastructure:**
   - `BRIEFING.md` — official Brasaland company briefing at the repo root.
   - `memory-bank/` — `projectbrief.md` (business), `techContext.md` (technical), `progress.md` (this file).
@@ -16,20 +16,25 @@ Last updated: 2026-11-16
 
 ## Next steps
 
-1. Merge `feature/agent-memory-bank` into `main` after PR approval.
-2. Decide the frontend framework for `uis/website` and `uis/backoffice` (record in `techContext.md`).
-3. Decide database and scaffold the central FastAPI app in `services/api/` with a `/health` endpoint.
-4. Add root `docker-compose.yml` wiring the API (and DB) for local development.
-5. Configure lint/test tooling (Python: ruff + pytest via uv; TypeScript: eslint + test runner via pnpm) and add the commands to `AGENTS.md`.
-6. Define first domain types (`Location`, `Money`, `MenuItem`) in `packages/shared`.
+1. Review the website in a browser at mobile, tablet and desktop widths; refine any visual issues.
+2. Exercise the contact form with valid and invalid values, including keyboard-only navigation and screen-reader announcements.
+3. Run the required checks, update/verify memory-bank records, and request developer approval before the first website commit.
+4. After this website milestone, continue with the next platform priorities: central FastAPI API, local orchestration, quality tooling and shared domain types.
 
 ## Known issues / open questions
 
 - The list of the 14 locations (names, cities) is not in `BRIEFING.md` — do not invent it; ask the developer.
-- Frontend framework, database, auth and hosting are pending decisions.
+- Website form is a client-side demonstration only; submissions are not sent or persisted.
+- English localization, database, auth and hosting remain future decisions.
 - No automated lint/test commands exist yet; the pre-commit workflow runs only the memory-bank verification and `git diff --check` until they do.
 
 ## Changelog
+
+### 2026-11-23
+
+- Started the public website milestone on `feature/brasaland-public-website` without modifying the pre-existing local change in `memory-bank/projectbrief.md`.
+- Added a responsive Spanish landing page, Schema.org restaurant metadata, and a contact form with client-side validation in `uis/website/`.
+- Recorded the static HTML + Tailwind CDN implementation in `techContext.md`.
 
 ### 2026-11-16
 
