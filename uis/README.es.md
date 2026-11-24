@@ -4,7 +4,7 @@ Esta carpeta contiene **todos los proyectos con interfaz de usuario** para el pr
 
 Los dos proyectos principales que se almacenan aquí son:
 
-- **`website`** — la presencia web pública de la compañía.
+- **`website`** — el sitio web público de Brasaland en `uis/website/`, creado con HTML estático y Tailwind CSS mediante CDN.
 - **`backoffice`** — la aplicación interna de administración. Es el lugar ideal para desarrollar múltiples soluciones dentro de un mismo proyecto: autenticación, gestión de personas, gestión de operaciones, comunicación interna y otras capacidades de back-office.
 
 Organiza `uis/` por **distintas áreas de la compañía** — cada subcarpeta agrupa un ámbito diferente (por ejemplo, web pública frente a operaciones internas) e incluye su propia documentación técnica y funcional.
